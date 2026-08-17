@@ -704,3 +704,25 @@ contributions help keep development going and make this work possible.
 - [@michele-lorenzoni](https://github.com/michele-lorenzoni) — $10 (Nov
   26, 2024)
 - [@skillerious](https://github.com/skillerious) — $10 (Aug 17, 2024)
+
+---
+
+## Installation
+
+### Prerequisites
+- [Docker](https://www.docker.com/get-started)
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/codexvisual/github-profile-trophy.git
+   cd github-profile-trophy
+   ```
+2. Build the image:
+   ```bash
+   docker build -t github-profile-trophy .
+   ```
+3. Run the container:
+   ```bash
+   docker run -p 3000:3000 github-profile-trophy
+   ```
